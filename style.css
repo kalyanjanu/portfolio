@@ -1,0 +1,171 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* General Text Styles */
+p {
+    line-height: 1.6;
+}
+
+/* Link Styles */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Profile Section Styles */
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__pic-container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section__text {
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+/* Social Icons Container */
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    fill: #333;
+    transition: fill 0.3s ease;
+}
+
+.icon:hover {
+    fill: #666;
+}
+
+/* Button Styles */
+.btn {
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-color-1 {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-color-2 {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-color-2:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* About Section Styles */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+    right: -5rem;
+    bottom: 2.5rem;
+}
